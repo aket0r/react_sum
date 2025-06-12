@@ -1,4 +1,4 @@
-export function Sum({ a = 0, b = 0 }) {
+export const Sum = ({ a = 0, b = 0 }) => {
   return (
     <div>
       <p>
@@ -6,4 +6,4 @@ export function Sum({ a = 0, b = 0 }) {
       </p>
     </div>
   );
-}
+};
